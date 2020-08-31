@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9B9DE4E524EEC16C00D80085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4E424EEC16C00D80085 /* AppDelegate.swift */; };
 		9B9DE4E724EEC16C00D80085 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */; };
-		9B9DE4E924EEC16C00D80085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4E824EEC16C00D80085 /* ViewController.swift */; };
 		9B9DE4EC24EEC16C00D80085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DE4EA24EEC16C00D80085 /* Main.storyboard */; };
 		9B9DE4F124EEC16C00D80085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DE4EF24EEC16C00D80085 /* LaunchScreen.storyboard */; };
 		9B9DE4F924EEC1A500D80085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DE4F824EEC1A500D80085 /* Assets.xcassets */; };
@@ -18,13 +17,13 @@
 		9B9DE4FF24EECAEE00D80085 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4FE24EECAEE00D80085 /* CardDeck.swift */; };
 		9B9DE50124EF0F8000D80085 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE50024EF0F8000D80085 /* CardStyle.swift */; };
 		9BB56CC524F021FE005BF8CE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB56CC424F021FE005BF8CE /* Game.swift */; };
+		9BFC118E24F91300000C3927 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC118D24F91300000C3927 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B9DE4E124EEC16C00D80085 /* HighLowCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighLowCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DE4E424EEC16C00D80085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B9DE4E824EEC16C00D80085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B9DE4EB24EEC16C00D80085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B9DE4F024EEC16C00D80085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B9DE4F224EEC16C00D80085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		9B9DE4FE24EECAEE00D80085 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 		9B9DE50024EF0F8000D80085 /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
 		9BB56CC424F021FE005BF8CE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9BFC118D24F91300000C3927 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,6 @@
 				9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */,
 				9B9DE4FA24EEC25A00D80085 /* GameViewController.swift */,
 				9BB56CC424F021FE005BF8CE /* Game.swift */,
-				9B9DE4E824EEC16C00D80085 /* ViewController.swift */,
 				9B9DE4FC24EEC2CF00D80085 /* Card.swift */,
 				9B9DE50024EF0F8000D80085 /* CardStyle.swift */,
 				9B9DE4FE24EECAEE00D80085 /* CardDeck.swift */,
@@ -78,6 +77,7 @@
 				9B9DE4EF24EEC16C00D80085 /* LaunchScreen.storyboard */,
 				9B9DE4F224EEC16C00D80085 /* Info.plist */,
 				9B9DE4F824EEC1A500D80085 /* Assets.xcassets */,
+				9BFC118D24F91300000C3927 /* UIButton+Extension.swift */,
 			);
 			path = HighLowCardGame;
 			sourceTree = "<group>";
@@ -156,9 +156,9 @@
 				9B9DE4FF24EECAEE00D80085 /* CardDeck.swift in Sources */,
 				9B9DE50124EF0F8000D80085 /* CardStyle.swift in Sources */,
 				9B9DE4FB24EEC25A00D80085 /* GameViewController.swift in Sources */,
-				9B9DE4E924EEC16C00D80085 /* ViewController.swift in Sources */,
 				9B9DE4FD24EEC2CF00D80085 /* Card.swift in Sources */,
 				9B9DE4E524EEC16C00D80085 /* AppDelegate.swift in Sources */,
+				9BFC118E24F91300000C3927 /* UIButton+Extension.swift in Sources */,
 				9B9DE4E724EEC16C00D80085 /* SceneDelegate.swift in Sources */,
 				9BB56CC524F021FE005BF8CE /* Game.swift in Sources */,
 			);

@@ -26,6 +26,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setButtonStyle()
         startGame()
     }
     
@@ -60,7 +61,7 @@ class GameViewController: UIViewController {
         revealPlayersCard()
         game.compareCards(hasHigherSelected: hasHigherSelected)
         updateInfoLabel(showAnswerText: true)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.nextRound()
         }
     }
@@ -131,4 +132,11 @@ class GameViewController: UIViewController {
     }
     */
 
+}
+
+extension GameViewController {
+    func setButtonStyle() {
+        higherButton.setGradientBackground(firstColor: UIColor(named: "buttonRed")!, secondColor: UIColor(named: "buttonRedDark")!)
+        lowerButton.setGradientBackground(firstColor: UIColor(named: "buttonBlue")!, secondColor: UIColor(named: "buttonBlueDark")!)
+    }
 }
