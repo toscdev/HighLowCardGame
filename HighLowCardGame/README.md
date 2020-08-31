@@ -1,6 +1,7 @@
 #  Higher or Lower Card Game
 
-A card game for iPhone where you have to guess whether your card is higher or lower than the opponent's card.
+A card game for iPhone where you have to guess whether your card is higher or lower than the opponent's card.  
+Made with Swift and UIKit.
 
 ![App](screenshots/highlowscreenshots.png)
 
