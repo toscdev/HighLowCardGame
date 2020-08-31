@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9B4E4CF124FD785C007D79C1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E4CF024FD785C007D79C1 /* LICENSE */; };
+		9B4E4CF324FD7887007D79C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E4CF224FD7887007D79C1 /* README.md */; };
+		9B4E4CF624FD9A6C007D79C1 /* highlowscreenshots.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4E4CF524FD9A6C007D79C1 /* highlowscreenshots.png */; };
 		9B9DE4E524EEC16C00D80085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4E424EEC16C00D80085 /* AppDelegate.swift */; };
 		9B9DE4E724EEC16C00D80085 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */; };
 		9B9DE4EC24EEC16C00D80085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DE4EA24EEC16C00D80085 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		9B4E4CF024FD785C007D79C1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9B4E4CF224FD7887007D79C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9B4E4CF524FD9A6C007D79C1 /* highlowscreenshots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlowscreenshots.png; sourceTree = "<group>"; };
 		9B9DE4E124EEC16C00D80085 /* HighLow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighLow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DE4E424EEC16C00D80085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B4E4CF424FD9A54007D79C1 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E4CF524FD9A6C007D79C1 /* highlowscreenshots.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		9B9DE4D824EEC16C00D80085 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +78,8 @@
 		9B9DE4E324EEC16C00D80085 /* HighLowCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				9B4E4CF424FD9A54007D79C1 /* screenshots */,
+				9B4E4CF224FD7887007D79C1 /* README.md */,
 				9B9DE4E424EEC16C00D80085 /* AppDelegate.swift */,
 				9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */,
 				9B9DE4FA24EEC25A00D80085 /* GameViewController.swift */,
@@ -140,8 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4E4CF624FD9A6C007D79C1 /* highlowscreenshots.png in Resources */,
 				9B9DE4F124EEC16C00D80085 /* LaunchScreen.storyboard in Resources */,
 				9B9DE4F924EEC1A500D80085 /* Assets.xcassets in Resources */,
+				9B4E4CF324FD7887007D79C1 /* README.md in Resources */,
 				9B4E4CF124FD785C007D79C1 /* LICENSE in Resources */,
 				9B9DE4EC24EEC16C00D80085 /* Main.storyboard in Resources */,
 			);
