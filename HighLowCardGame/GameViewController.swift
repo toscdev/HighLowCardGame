@@ -38,6 +38,14 @@ class GameViewController: UIViewController {
         endRound(hasHigherSelected: false)
     }
     
+    @IBAction func showGameRules(_ sender: UIButton) {
+        let gameRulesAlert = UIAlertController(title: "Game Rules", message: game.gameRules, preferredStyle: .alert)
+        
+        gameRulesAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        
+        self.present(gameRulesAlert, animated: true)
+    }
+    
     func startGame() {
         game.startNewGame()
         updatePointsLabel()

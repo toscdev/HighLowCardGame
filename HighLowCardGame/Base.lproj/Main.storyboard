@@ -10,7 +10,7 @@
         <!--Game View Controller-->
         <scene sceneID="QoN-Vq-lNR">
             <objects>
-                <viewController id="w8X-hC-P6P" customClass="GameViewController" customModule="HighLowCardGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="w8X-hC-P6P" customClass="GameViewController" customModule="HighLow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xwe-8l-Lj4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,6 +92,17 @@
                                     <action selector="higherButtonPressed:" destination="w8X-hC-P6P" eventType="touchUpInside" id="bKt-wr-xxq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpc-UC-kGS">
+                                <rect key="frame" x="320" y="613" width="25" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Qhl-96-VsD"/>
+                                    <constraint firstAttribute="width" constant="25" id="i2C-Mw-3ta"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="showGameRules:" destination="w8X-hC-P6P" eventType="touchUpInside" id="Tcf-Nx-7Y5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -103,12 +114,14 @@
                             <constraint firstItem="E35-eV-YPj" firstAttribute="leading" secondItem="mnF-4s-Oy0" secondAttribute="leading" constant="24" id="GB6-C2-bFi"/>
                             <constraint firstItem="V30-a4-9iW" firstAttribute="top" secondItem="mnF-4s-Oy0" secondAttribute="top" constant="66" id="HOy-Z6-Sc2"/>
                             <constraint firstAttribute="bottom" secondItem="OQc-ww-X9c" secondAttribute="bottom" id="IEA-lN-KIe"/>
+                            <constraint firstItem="mnF-4s-Oy0" firstAttribute="bottom" secondItem="bpc-UC-kGS" secondAttribute="bottom" constant="30" id="KEL-xf-Hja"/>
                             <constraint firstItem="2rc-ZF-QmW" firstAttribute="leading" secondItem="rFr-Vw-tEy" secondAttribute="trailing" constant="48" id="KMq-Qr-lJb"/>
                             <constraint firstItem="2rc-ZF-QmW" firstAttribute="top" secondItem="V30-a4-9iW" secondAttribute="bottom" constant="11" id="KU4-Jt-MIa"/>
                             <constraint firstItem="E35-eV-YPj" firstAttribute="top" secondItem="g0Q-xT-YPX" secondAttribute="bottom" constant="60" id="Kfu-Ih-L12"/>
                             <constraint firstItem="9Ug-dR-3sC" firstAttribute="top" secondItem="MDU-Kf-yXy" secondAttribute="bottom" constant="40" id="KoE-Rr-nxv"/>
                             <constraint firstItem="rFr-Vw-tEy" firstAttribute="top" secondItem="L2a-wG-uyT" secondAttribute="bottom" constant="11" id="O61-ba-w1N"/>
                             <constraint firstItem="mnF-4s-Oy0" firstAttribute="trailing" secondItem="MDU-Kf-yXy" secondAttribute="trailing" constant="24" id="ORL-s5-On4"/>
+                            <constraint firstItem="mnF-4s-Oy0" firstAttribute="trailing" secondItem="bpc-UC-kGS" secondAttribute="trailing" constant="30" id="Pap-SL-caI"/>
                             <constraint firstItem="OQc-ww-X9c" firstAttribute="leading" secondItem="mnF-4s-Oy0" secondAttribute="leading" id="c6b-nv-R9p"/>
                             <constraint firstItem="2rc-ZF-QmW" firstAttribute="width" secondItem="rFr-Vw-tEy" secondAttribute="width" id="c7e-0B-F1Q"/>
                             <constraint firstItem="2rc-ZF-QmW" firstAttribute="leading" secondItem="rFr-Vw-tEy" secondAttribute="trailing" constant="48" id="d2Z-3c-HeR"/>

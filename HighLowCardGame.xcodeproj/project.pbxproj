@@ -15,7 +15,6 @@
 		9B9DE4FB24EEC25A00D80085 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4FA24EEC25A00D80085 /* GameViewController.swift */; };
 		9B9DE4FD24EEC2CF00D80085 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4FC24EEC2CF00D80085 /* Card.swift */; };
 		9B9DE4FF24EECAEE00D80085 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE4FE24EECAEE00D80085 /* CardDeck.swift */; };
-		9B9DE50124EF0F8000D80085 /* CardStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE50024EF0F8000D80085 /* CardStyle.swift */; };
 		9BB56CC524F021FE005BF8CE /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB56CC424F021FE005BF8CE /* Game.swift */; };
 		9BFC118E24F91300000C3927 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFC118D24F91300000C3927 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		9B9DE4FA24EEC25A00D80085 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9B9DE4FC24EEC2CF00D80085 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9B9DE4FE24EECAEE00D80085 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
-		9B9DE50024EF0F8000D80085 /* CardStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStyle.swift; sourceTree = "<group>"; };
 		9BB56CC424F021FE005BF8CE /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		9BFC118D24F91300000C3927 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +69,6 @@
 				9B9DE4FA24EEC25A00D80085 /* GameViewController.swift */,
 				9BB56CC424F021FE005BF8CE /* Game.swift */,
 				9B9DE4FC24EEC2CF00D80085 /* Card.swift */,
-				9B9DE50024EF0F8000D80085 /* CardStyle.swift */,
 				9B9DE4FE24EECAEE00D80085 /* CardDeck.swift */,
 				9B9DE4EA24EEC16C00D80085 /* Main.storyboard */,
 				9B9DE4EF24EEC16C00D80085 /* LaunchScreen.storyboard */,
@@ -154,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9DE4FF24EECAEE00D80085 /* CardDeck.swift in Sources */,
-				9B9DE50124EF0F8000D80085 /* CardStyle.swift in Sources */,
 				9B9DE4FB24EEC25A00D80085 /* GameViewController.swift in Sources */,
 				9B9DE4FD24EEC2CF00D80085 /* Card.swift in Sources */,
 				9B9DE4E524EEC16C00D80085 /* AppDelegate.swift in Sources */,
