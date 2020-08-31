@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B9DE4E124EEC16C00D80085 /* HighLowCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighLowCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9DE4E124EEC16C00D80085 /* HighLow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighLow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DE4E424EEC16C00D80085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9DE4E624EEC16C00D80085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B9DE4EB24EEC16C00D80085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		9B9DE4E224EEC16C00D80085 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B9DE4E124EEC16C00D80085 /* HighLowCardGame.app */,
+				9B9DE4E124EEC16C00D80085 /* HighLow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 			);
 			name = HighLowCardGame;
 			productName = HighLowCardGame;
-			productReference = 9B9DE4E124EEC16C00D80085 /* HighLowCardGame.app */;
+			productReference = 9B9DE4E124EEC16C00D80085 /* HighLow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -312,9 +312,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.tosc.HighLowCardGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HighLow;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +330,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.tosc.HighLowCardGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HighLow;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
